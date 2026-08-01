@@ -1,12 +1,12 @@
 {
   "project": "LyonsLegacy.AI",
-  "generated": "2026-08-01 13:14:05",
+  "generated": "2026-08-01 13:24:32",
   "read_me_first": "READ settled FIRST. Every entry in it is closed — never suggest it, never ask about it, never re-explain it. Then read blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
   "counts": {
     "open": 66,
     "blocked": 3,
     "done": 34,
-    "standards": 70,
+    "standards": 72,
     "settled": 23
   },
   "settled": [
@@ -1194,6 +1194,20 @@
       "area": "Memory",
       "rule": "EVERY BRAIN ENDPOINT SERVES THE SAME PAYLOAD. If SETTLED, blocked, open loops and standards are in one endpoint they are in all of them. A record that is complete in one place and partial in another is worse than one that is simply thin, because nobody knows which they are reading.",
       "failure_that_created_it": "The GitHub push shipped blueprint and standards but silently omitted SETTLED, which is the one part that stops already-done work being re-suggested.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-71",
+      "area": "Growth",
+      "rule": "EVERY OPEN ITEM HAS A START DATE AND AN AGE, AND AGE IS VISIBLE. Seven days amber, fourteen orange, thirty red. Nothing is allowed to quietly sit for a month while looking the same as something opened yesterday.",
+      "failure_that_created_it": "The blueprint showed status but never showed how long anything had been sitting, so old and new looked identical.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-72",
+      "area": "Growth",
+      "rule": "ANYTHING OPEN SEVEN DAYS EMAILS HERMAN, AND KEEPS EMAILING EVERY SEVEN DAYS UNTIL IT IS DONE. The reminder is not a courtesy, it is the mechanism — an item cannot go quiet just because nobody looked at the board.",
+      "failure_that_created_it": "Herman: I want to be constantly reminded until it is completed so it keeps me on track.",
       "added": "2026-08-01"
     }
   ]
