@@ -1,13 +1,13 @@
 {
   "project": "LyonsLegacy.AI",
-  "generated": "2026-08-01 13:24:32",
-  "read_me_first": "READ settled FIRST. Every entry in it is closed — never suggest it, never ask about it, never re-explain it. Then read blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
+  "generated": "2026-08-01 13:43:13",
+  "read_me_first": "READ settled FIRST. Every entry is closed — never suggest it, never ask about it, never re-explain it. Then blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
   "counts": {
     "open": 66,
     "blocked": 3,
     "done": 34,
-    "standards": 72,
-    "settled": 23
+    "standards": 73,
+    "settled": 29
   },
   "settled": [
     {
@@ -147,6 +147,42 @@
       "already_true": "Google blocks automated fetching",
       "detail": "Both drive.google.com and script.google.com are robots-disallowed. Browser reads work; direct fetches do not.",
       "never_suggest": "Never propose a Google-hosted URL as a fetchable record."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Google Photos backup is the working route",
+      "detail": "Backs up direct from the device, not affected by the Apple transfer permissions wall. Backup is ON, Original quality.",
+      "never_suggest": "Never treat the blocked Apple transfer as the only way off the phone."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "602 items are out of sync in Google Photos",
+      "detail": "Almost certainly blocked by the space deadlock — originals cannot download to a full phone. Only option offered is delete, so they must NOT be deleted.",
+      "never_suggest": "Never suggest deleting the out-of-sync items."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "GitHub is krisshaffer83-ops, repo lyonslegacy-state",
+      "detail": "Token lyonslegacy-brain, Contents read and write, expires 2027-08-01.",
+      "never_suggest": "Never ask for the GitHub username or repo."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "Microsoft: 365 Personal via Apple, Copilot Pro retiring 08-14",
+      "detail": "Recurring billing already off. OneDrive is 1TB at 659GB used, not 2TB.",
+      "never_suggest": "Never describe OneDrive as 2TB."
+    },
+    {
+      "area": "BUILD",
+      "already_true": "Everything is one project, appended at the bottom",
+      "detail": "Around 7,500 lines. The Run dropdown cannot pass arguments.",
+      "never_suggest": "Never suggest splitting into multiple files."
+    },
+    {
+      "area": "BUILD",
+      "already_true": "Ctrl+S is required after every paste",
+      "detail": "Apps Script does not autosave reliably before a run.",
+      "never_suggest": "Always include save as an explicit step."
     }
   ],
   "blocked": [
@@ -1208,6 +1244,13 @@
       "area": "Growth",
       "rule": "ANYTHING OPEN SEVEN DAYS EMAILS HERMAN, AND KEEPS EMAILING EVERY SEVEN DAYS UNTIL IT IS DONE. The reminder is not a courtesy, it is the mechanism — an item cannot go quiet just because nobody looked at the board.",
       "failure_that_created_it": "Herman: I want to be constantly reminded until it is completed so it keeps me on track.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-73",
+      "area": "Build",
+      "rule": "NEVER DEPEND ON TOP-LEVEL EXECUTION ORDER. Apps Script runs every file top-level before any function, in file order, so a later file re-declaring an array silently discards everything an earlier file pushed into it. All data registers inside a function called at build time.",
+      "failure_that_created_it": "Standards 70 to 72 and the whole SETTLED list vanished from the pushed brain while their functions worked perfectly — the hardest kind of bug to see, because nothing errored.",
       "added": "2026-08-01"
     }
   ]
