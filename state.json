@@ -1,14 +1,163 @@
 {
   "project": "LyonsLegacy.AI",
-  "generated": "2026-08-01 12:58:12",
-  "read_me_first": "Read this BEFORE answering anything. Never send Herman to do something listed here as IN PROGRESS or DONE. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long.",
+  "generated": "2026-08-01 13:06:52",
+  "read_me_first": "READ settled FIRST. Every entry in it is closed — never suggest it, never ask about it, never re-explain it. Then read blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
   "counts": {
-    "open": 65,
-    "blocked": 1,
-    "done": 35,
-    "standards": 69
+    "open": 66,
+    "blocked": 3,
+    "done": 34,
+    "standards": 70,
+    "settled": 23
   },
+  "settled": [
+    {
+      "area": "PHONE",
+      "already_true": "iCloud Photos is ALREADY on Optimize iPhone Storage",
+      "detail": "Set long before this build. Device holds previews, originals live in iCloud.",
+      "never_suggest": "Never suggest turning on Optimize. It is on."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Advanced Data Protection is already OFF",
+      "detail": "Turned off so the Apple transfer was possible at all.",
+      "never_suggest": "Never suggest turning ADP off."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Apple photo transfer is BLOCKED on a permissions error",
+      "detail": "Herman has attempted it repeatedly. It does not complete. It is NOT running.",
+      "never_suggest": "Never say the transfer is running. Never suggest starting it as if new."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "The Apple transfer service is NOT the only route",
+      "detail": "The Google Photos app backing up directly from the device moves photos and video to Google Photos without touching Apple transfer at all. Different mechanism, not blocked by the same permissions.",
+      "never_suggest": "Never treat the blocked Apple transfer as the only way off the phone."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "WHAT HERMAN ACTUALLY WANTS",
+      "detail": "Photos, videos, notes and messages OFF the phone and logged in Google. Not tips, not deletions of things he uses, not storage settings he already set.",
+      "never_suggest": "Never answer this request with app deletions or settings he has already configured."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "CapCut IS IN ACTIVE USE — do not delete it",
+      "detail": "9.88GB. Its CONTENT is mostly not music videos, so nothing in it feeds the pipeline. That is NOT the same as the app being unused. Herman edits in it.",
+      "never_suggest": "Never suggest deleting CapCut. Never treat it as dead weight."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Photos are NOT what is filling the phone",
+      "detail": "Photos about 10GB. System Data 34GB and iOS 20GB are the real load.",
+      "never_suggest": "Never suggest deleting photos to free the phone."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Only backup > erase > restore clears System Data",
+      "detail": "Same operation also produces the backup Messages are extracted from.",
+      "never_suggest": "Never propose a different fix for System Data."
+    },
+    {
+      "area": "PHONE",
+      "already_true": "Storage on device",
+      "detail": "Photos 10GB, CapCut 9.88GB, Beatlander 6GB, Documents 3.32GB, Messages 2.93GB, Notes 609MB, iOS 20.3GB, System Data 34GB.",
+      "never_suggest": "Use these numbers. Do not ask for them again unless they change."
+    },
+    {
+      "area": "EMAIL",
+      "already_true": "Domain email is FINISHED and PROVEN",
+      "detail": "Domain verified, MX, SPF, DKIM, DMARC, Gmail live, 8 aliases live, real delivery test received 2026-08-01 07:07.",
+      "never_suggest": "Never suggest any email setup step again."
+    },
+    {
+      "area": "EMAIL",
+      "already_true": "All 8 aliases exist",
+      "detail": "submissions, legal, music, info, booking, press, admin, royalties — all on hermanbeeftink@lyonslegacy.ai.",
+      "never_suggest": "Never suggest adding aliases."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "Label identity is hermanbeeftink@lyonslegacy.ai",
+      "detail": "Personal krisshaffer83@gmail.com owns Drive, the 2TB, Suno and the workbook.",
+      "never_suggest": "Never ask which account to use."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "Google admin console lives at /u/1/",
+      "detail": "Second signed-in account. Plain admin.google.com links 404.",
+      "never_suggest": "Never send a Google Admin link without /u/1/."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "GitHub account is krisshaffer83-ops",
+      "detail": "Repo lyonslegacy-state created, public, README initialised.",
+      "never_suggest": "Never ask for the GitHub username."
+    },
+    {
+      "area": "ACCOUNTS",
+      "already_true": "Microsoft: 365 Personal bought via Apple, Copilot Pro retiring 08-14",
+      "detail": "Recurring billing already off. OneDrive is 1TB at 659GB used, not 2TB.",
+      "never_suggest": "Never describe OneDrive as 2TB."
+    },
+    {
+      "area": "MUSIC",
+      "already_true": "BMI writer application SUBMITTED 2026-08-01",
+      "detail": "AKAs registered: Tha Real Beef, Baby Boo. Cyroni Tha Macaroni capped out at two. Awaiting acceptance, 5-7 business days. Login impossible until then.",
+      "never_suggest": "Never suggest starting the BMI writer application."
+    },
+    {
+      "area": "MUSIC",
+      "already_true": "Artist names use spaces, not underscores",
+      "detail": "Tha Real Beef, Baby Boo, Cyroni Tha Macaroni. Underscore form is the internal sheet key only.",
+      "never_suggest": "Never ask about casing or underscores again."
+    },
+    {
+      "area": "MUSIC",
+      "already_true": "LGP Mack Money is already on the Roster",
+      "detail": "Portal built and live, view-only because no email is on his Roster row.",
+      "never_suggest": "Never suggest adding him to the Roster."
+    },
+    {
+      "area": "MUSIC",
+      "already_true": "Suno holds every style prompt, title and lyric",
+      "detail": "Grok is not needed to recover them. Only the original seed lyrics are unique to Grok.",
+      "never_suggest": "Never suggest mining Grok for prompts or titles."
+    },
+    {
+      "area": "MUSIC",
+      "already_true": "Auto-filing and portal sync are both ON",
+      "detail": "Drop folder files itself every 5 minutes. Portals sync every 5 minutes.",
+      "never_suggest": "Never suggest turning either on."
+    },
+    {
+      "area": "BUILD",
+      "already_true": "Everything is one file, Code.gs",
+      "detail": "Around 6,900 lines. Add-ons append at the bottom; the Run dropdown cannot pass arguments.",
+      "never_suggest": "Never suggest splitting into multiple files."
+    },
+    {
+      "area": "BUILD",
+      "already_true": "Web app must be REDEPLOYED with a new version",
+      "detail": "Editing code alone does not update the served brain.",
+      "never_suggest": "Never assume a code change reached the brain."
+    },
+    {
+      "area": "BUILD",
+      "already_true": "Google blocks automated fetching",
+      "detail": "Both drive.google.com and script.google.com are robots-disallowed. Browser reads work; direct fetches do not.",
+      "never_suggest": "Never propose a Google-hosted URL as a fetchable record."
+    }
+  ],
   "blocked": [
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
+      "item": "Photos + videos to Drive (124GB)",
+      "next": "Apple transfer will not complete — permissions error, repeatedly. NOT running. Needs the actual error message captured before anything else is tried.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
     {
       "status": "BLOCKED",
       "area": "STORAGE + PHONE",
@@ -16,15 +165,39 @@
       "next": "Deleting photos will NOT fix the phone. Only fix is backup > erase > restore. Same backup also gets Messages out. Do these together, once.",
       "where": "IPHONE",
       "who": "Herman"
+    },
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
+      "item": "Use privacy.apple.com on a computer, not the phone",
+      "next": "Already attempted. Still blocked on permissions.",
+      "where": "BROWSER",
+      "who": "Herman"
     }
   ],
   "open_loops": [
     {
       "status": "BLOCKED",
       "area": "STORAGE + PHONE",
+      "item": "Photos + videos to Drive (124GB)",
+      "next": "Apple transfer will not complete — permissions error, repeatedly. NOT running. Needs the actual error message captured before anything else is tried.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
       "item": "The REAL phone hog: System Data 34GB + iOS 20GB",
       "next": "Deleting photos will NOT fix the phone. Only fix is backup > erase > restore. Same backup also gets Messages out. Do these together, once.",
       "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
+      "item": "Use privacy.apple.com on a computer, not the phone",
+      "next": "Already attempted. Still blocked on permissions.",
+      "where": "BROWSER",
       "who": "Herman"
     },
     {
@@ -473,14 +646,6 @@
       "item": "Late video / artwork attaches to existing song",
       "next": "Drop Paper First.mp4 into the folder and confirm it lands on the existing row, not a new one.",
       "where": "DRIVE",
-      "who": "Herman"
-    },
-    {
-      "status": "IN PROGRESS",
-      "area": "STORAGE + PHONE",
-      "item": "Photos + videos to Drive (124GB)",
-      "next": "10,747 photos and 2,838 videos. Apple transfer to Google Photos.",
-      "where": "IPHONE",
       "who": "Herman"
     },
     {
@@ -1022,6 +1187,13 @@
       "area": "Memory",
       "rule": "ANYTHING DELIVERED AND NOT YET INSTALLED STAYS ON THE SNAPSHOT UNTIL CONFIRMED PRESENT. Files sent, code pasted, deployments refreshed — each stays listed as outstanding until verified in place, never dropped because it feels handled.",
       "failure_that_created_it": "Add-ons 19 and 20 were sent, dropped off the snapshot, and then assumed installed. The whole sequence after that was built on something that was not there.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-70",
+      "area": "Memory",
+      "rule": "EVERY BRAIN ENDPOINT SERVES THE SAME PAYLOAD. If SETTLED, blocked, open loops and standards are in one endpoint they are in all of them. A record that is complete in one place and partial in another is worse than one that is simply thin, because nobody knows which they are reading.",
+      "failure_that_created_it": "The GitHub push shipped blueprint and standards but silently omitted SETTLED, which is the one part that stops already-done work being re-suggested.",
       "added": "2026-08-01"
     }
   ]
