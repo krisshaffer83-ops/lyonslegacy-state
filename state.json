@@ -1,0 +1,1028 @@
+{
+  "project": "LyonsLegacy.AI",
+  "generated": "2026-08-01 12:58:12",
+  "read_me_first": "Read this BEFORE answering anything. Never send Herman to do something listed here as IN PROGRESS or DONE. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long.",
+  "counts": {
+    "open": 65,
+    "blocked": 1,
+    "done": 35,
+    "standards": 69
+  },
+  "blocked": [
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
+      "item": "The REAL phone hog: System Data 34GB + iOS 20GB",
+      "next": "Deleting photos will NOT fix the phone. Only fix is backup > erase > restore. Same backup also gets Messages out. Do these together, once.",
+      "where": "IPHONE",
+      "who": "Herman"
+    }
+  ],
+  "open_loops": [
+    {
+      "status": "BLOCKED",
+      "area": "STORAGE + PHONE",
+      "item": "The REAL phone hog: System Data 34GB + iOS 20GB",
+      "next": "Deleting photos will NOT fix the phone. Only fix is backup > erase > restore. Same backup also gets Messages out. Do these together, once.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "Artist_Brand filled for THA_REAL_BEEF",
+      "next": "Logo, colours, character sheet, voice, hashtags, Never_Do.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "DOMAIN + EMAIL",
+      "item": "Website on lyonslegacy.ai",
+      "next": "Deliberately parked until the pipeline and money side are done.",
+      "where": "LATER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "BMI — publisher registration",
+      "next": "Register a SECOND time as a PUBLISHER. This is the half most people skip and it is half the money.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "DistroKid",
+      "next": "Only after both BMI registrations exist.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Splits recorded per song",
+      "next": "Needs a Splits column set on Tracks once BMI numbers exist.",
+      "where": "SHEETS",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "AI OFFLOAD",
+      "item": "Grok Pro — captions, titles, hashtags",
+      "next": "P1 RED. First job: captions and hashtags for Paper First. Stop bringing this to Claude.",
+      "where": "GROK",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "AI OFFLOAD",
+      "item": "Grok Pro — live trend checks before naming a track",
+      "next": "P1 RED. 2 minutes per release. Claude cannot see X at all.",
+      "where": "GROK",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "AI OFFLOAD",
+      "item": "Gemini Pro — video review + transcription",
+      "next": "P1 RED. Sending media to Claude is the most expensive thing in a session.",
+      "where": "GEMINI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "AI OFFLOAD",
+      "item": "NotebookLM notebook",
+      "next": "P2 RED STATUS. Not set up at all. Highest value per minute once contracts arrive. Free tier is enough.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "Documents (3.32GB) to Drive",
+      "next": "Straight copy.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "Beatlander (6GB) to Drive",
+      "next": "Herman flagged this one specifically.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "Notes exported and logged in full",
+      "next": "Nothing minimised. Every note kept whole.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "Messages logged",
+      "next": "Decide: everything, or just the Ghas / Jalen threads. Needs the full device backup either way.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Gemini paid for twice",
+      "next": "Business Standard bundles Gemini. Google One AI on the personal account bills for the same capability. The 2TB under it is holding the photo transfer, so decide after the iCloud move completes, not before.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "ONE CANONICAL HOME PER FILE TYPE",
+      "next": "Photos and video live in Google Photos. Documents and working files live in Google Drive. Nothing else is a home — iCloud and OneDrive become copies to be emptied, never places things live. Right now the same photos probably exist in three places, which is why four storage bills are running.",
+      "where": "DRIVE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "COPY, VERIFY, THEN CANCEL — in that order",
+      "next": "Never cancel a storage subscription before the copy is verified present at the destination. Deleting the only good copy of 660GB is the one mistake here that cannot be undone.",
+      "where": "DRIVE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "STORAGE + PHONE",
+      "item": "Dedupe AFTER everything lands, never during",
+      "next": "Google Photos detects exact duplicates on import. Trying to work out what is duplicated across three clouds first is unbounded work. Land it all in one place, then dedupe once.",
+      "where": "DRIVE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Billing cannot all route through Apple",
+      "next": "Only App Store purchases bill through Apple — M365 Personal does. Google Workspace, Google One, Suno, Grok, Claude and n8n bill direct and cannot be moved to Apple. The achievable version of one audit trail is one card for everything plus every subscription logged on the MONEY tab with its billing route.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "THREE clocks all land 08-12 to 08-14",
+      "next": "n8n trial ends 08-12, Workspace goes paid 08-14, Copilot Pro retires 08-14. Three money decisions in one 48 hour window. Decide them together, not separately.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "OneDrive is 1TB and 659GB full",
+      "next": "The tracker recorded 2TB. It is 1TB at 64 percent. Moving that into Google Drive is a far bigger job than planned and needs its own approach.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Four cloud storage subscriptions at once",
+      "next": "Google One 2TB, Workspace pooled, OneDrive 1TB, iCloud. Once the phone move finishes, at least two of these are dead weight.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "BUG — health check gives a false green on Roster emails",
+      "next": "System_Health reported OK Roster, every artist has an email. Building the portal for LGP MACK MONEY then reported no email on the Roster, so the portal is view-only and he cannot submit. The health check is not actually testing what it claims, which makes the whole dashboard untrustworthy. Fix the check to fail loudly on any roster row with a blank email.",
+      "where": "APPS SCRIPT",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "LGP MACK MONEY portal is view-only",
+      "next": "Portal built and live but link-view-only because the Roster row has no email. Add the email to the Roster and rebuild the portal to let him submit.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "ONE FRONT DOOR — kill the n8n form, keep the portal",
+      "next": "Herman: artists should only ever have a portal. Two front doors is one too many. The portal is the front door for anyone onboarded deliberately; the n8n form only earns its place for cold inbound from strangers, which is not the model. Decide before 2026-08-12.",
+      "where": "N8N",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "Can n8n be dropped entirely",
+      "next": "n8n does three jobs: the submission form, the change log into Audit_Log, and the error catcher. Apps Script already has Audit_Log, Errors and System_Health running natively. If the form goes and the last two move into Apps Script, n8n is a paid dependency with nothing left to do. That decision has a clock on it — 2026-08-12.",
+      "where": "N8N",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Register release-candidate works with BMI",
+      "next": "Blocked until Online Services access is granted. The 10 day clause in para 2(a) cannot run while BMI keeps the door shut — register as soon as the login works. Applies to songs actually going out, not every Suno draft.",
+      "where": "BMI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "Choose the first release wave",
+      "next": "160 songs in Suno and the intent is to release all of them. Nothing downstream can move without knowing WHICH songs go out and in what ORDER — registration, DistroKid, artwork, captions and splits all read from that list. Populate Registration_Queue with wave one.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "AI authorship question — who wrote the melody",
+      "next": "Herman writes the lyrics; Suno generates the music. US Copyright Office holds that purely AI-generated material has no human author. Registering AI-composed melodies as his own work may be inaccurate, and BMI para 18(d) makes false registrations grounds for termination. Needs a music lawyer, and the Suno Pro terms read properly first. Blocks registering 160 works in volume.",
+      "where": "LEGAL",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "EXPORT THE GROK HISTORY BEFORE IT DELETES",
+      "next": "Grok clears conversations after roughly 90 days. Those conversations are the evidence of human authorship — the seed lyrics, the direction, the iteration, the prompts. Oldest first, because the oldest are closest to deletion and some may already be lost. Destination: Drive, and the Prompt_Library tab. Same failure mode as chat compaction — state living in someone elses ephemeral system.",
+      "where": "GROK",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Read the Suno Pro terms properly",
+      "next": "What Suno actually grants on Pro — ownership, commercial use, and what it cannot grant because it does not own it. P2 offload: load the terms into NotebookLM and ask it directly, with citations.",
+      "where": "NOTEBOOKLM",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MUSIC PIPELINE",
+      "item": "Re-cut the Tha Real Beef vocals",
+      "next": "Herman wants to redo the Tha Real Beef catalogue for a better vocal. Re-recording does not create a new work, so it does not change BMI registration — but hold those songs out of wave one until the final versions exist.",
+      "where": "SUNO",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Register every new work BEFORE it is performed",
+      "next": "Para 6(b)(i) — BMI has no obligation to pay for any performance occurring before they receive the registration. This has to become part of the drop-and-go routine, not a separate memory task.",
+      "where": "BMI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Capture BMI account number and IPI/CAE",
+      "next": "Neither exists yet. IPI goes on every split sheet. Both belong in START HERE.",
+      "where": "BMI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Add Cyroni Tha Macaroni as AKA",
+      "next": "Application form capped at two pseudonyms. Add through Online Services after approval. Do not release under that name first.",
+      "where": "BMI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MONEY",
+      "item": "Split sheets must reach BMI in writing",
+      "next": "Para 6(a)(ii) — co-writer royalties default to an equal split by headcount unless BMI receives a written agreement saying otherwise.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "FEEDBACK",
+      "item": "Artist rates from their own portal",
+      "next": "Ratings must be settable by the artist inside their portal, not only by Herman in the master. Portal sync is already on at 5 minutes, so ratings would flow back automatically. Requires editing the existing portal builder — read that function first, do not guess at it.",
+      "where": "APPS SCRIPT",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "FEEDBACK",
+      "item": "Per-artist dashboard shows SUPER LIKED only",
+      "next": "Each artist sees their own board built from the things they marked SUPER LIKED — prompts, voices, episodes. The NOT FOR ME set becomes their Never_Do list in Artist_Brand automatically.",
+      "where": "APPS SCRIPT",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "Publish the NotebookLM episodes already made",
+      "next": "Herman has multiple podcast episodes already generated from previous NotebookLM work and never released. Finished inventory sitting idle. Publishing these is the fastest possible win and needs no new system.",
+      "where": "NOTEBOOKLM",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "Choose a podcast host",
+      "next": "Podcasts do not go through DistroKid. Needs a host and an RSS feed — Spotify for Creators is free. Register it to hermanbeeftink@lyonslegacy.ai with an email and password login, NOT sign in with Google, because multiple Google accounts are signed in and SSO picks the wrong one.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "THE RECORD",
+      "item": "Password manager in use for label accounts",
+      "next": "Every label service login stored in one password manager, never reused, never typed into a chat. Recovery address is the personal Gmail; the label email is the account address.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "Per-artist podcast rules",
+      "next": "How each artist wants their episodes to sound and behave — tone, length, what is off limits. Lives beside Artist_Brand Voice and Never_Do so one source drives both music and spoken content.",
+      "where": "SHEETS",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "HONEST SEAM — NotebookLM has no API",
+      "next": "Audio overviews are generated by hand inside NotebookLM. Generation cannot be automated end to end. Everything AROUND it can be: tracking, per-artist rules, publishing, ratings, feeding results back. Do not design a workflow that pretends otherwise.",
+      "where": "NOTEBOOKLM",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "BUILD",
+      "item": "Build in Apps Script, NOT n8n",
+      "next": "The n8n trial ends 2026-08-12 and the plan is already to drop the submission form and possibly n8n entirely. Adding BMI, distribution and podcast workflows into n8n now walks straight into a subscription decision that is 11 days away. Apps Script already runs the filing, the logging, the health check and the portals.",
+      "where": "APPS SCRIPT",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PLATFORM",
+      "item": "RECIPES — first domain built on the spec",
+      "next": "Thousands of recipes, intake from photo or text. First real test of the platform pattern on something that is not music. Run createNewDomainWorkbook Recipes to start.",
+      "where": "APPS SCRIPT",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PLATFORM",
+      "item": "Image intake — photo to text",
+      "next": "Recipe cards, screenshots and scans get read into text before filing. Gemini does this best; Drive OCR is the free fallback. Needed by Recipes, useful everywhere.",
+      "where": "GEMINI",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PLATFORM",
+      "item": "The output pack must actually get produced",
+      "next": "Report, one-pager, slide deck, mind map, podcast and social copy for every new concept. Right now the spec exists and nothing generates it. Until something does, P15 is a promise not a floor.",
+      "where": "APPS SCRIPT",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PLATFORM",
+      "item": "Copilot / M365 owns slide decks",
+      "next": "Nothing else in the roster makes real pptx well. Confirm which Copilot tier is actually held before relying on it.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PLATFORM",
+      "item": "GitHub Copilot — do not pay yet",
+      "next": "No repo exists. It earns its place when the app does, not before.",
+      "where": "LATER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "THE RECORD",
+      "item": "FIRST ACTION OF EVERY SESSION — fetch the brain",
+      "next": "Before answering anything, before suggesting any next step, read the brain URL. Five times in one day Herman was sent to do something the blueprint already recorded as in progress or done. The record existing is not the same as the record being read.",
+      "where": "CLAUDE",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "THE RECORD",
+      "item": "Keep sensitive data OUT of the state file",
+      "next": "The brain file is readable by anyone holding the link. Project state only — no SSN, no date of birth, no home address, no passwords, no account numbers. Those stay in the workbook, which is not link-shared.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "HONEST SEAM — Spotify for Creators has no upload API",
+      "next": "Filing is automatable. The upload itself is not — Spotify for Creators offers no public upload API, so each episode is a manual upload of about two minutes. Do NOT design a pipeline that pretends otherwise.",
+      "where": "NOTEBOOKLM",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "Own the RSS feed to make publishing automatic",
+      "next": "The only way to fully automate publishing is to own the feed: Apps Script serves the RSS XML as a web app, Drive holds the audio, and Spotify and Apple subscribe to that feed once. After that, adding an episode to the feed IS publishing. Costs nothing but Drive is a weak media host at volume. Decide AFTER a handful of episodes are out, not before.",
+      "where": "APPS SCRIPT",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "PODCAST",
+      "item": "Ship one episode manually first",
+      "next": "Nothing has been published yet at all. Publish one by hand before automating the path — otherwise the automation is built against a process nobody has run once.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "FEEDBACK",
+      "item": "Close every open feedback loop",
+      "next": "There are 0 NOT FOR ME entries with no recorded change. Each needs either a standard or a blueprint item before it counts as handled.",
+      "where": "SHEETS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "FEEDBACK",
+      "item": "Artist ratings must reach the generator",
+      "next": "Loop is only closed when SUPER LIKED prompts are the ONLY ones offered next time and NOT FOR ME ones are never offered again. Until the generation step actually reads the ratings, the scale is just a survey.",
+      "where": "APPS SCRIPT",
+      "who": "Machine"
+    },
+    {
+      "status": "NOT TESTED",
+      "area": "MUSIC PIPELINE",
+      "item": "Late video / artwork attaches to existing song",
+      "next": "Drop Paper First.mp4 into the folder and confirm it lands on the existing row, not a new one.",
+      "where": "DRIVE",
+      "who": "Herman"
+    },
+    {
+      "status": "IN PROGRESS",
+      "area": "STORAGE + PHONE",
+      "item": "Photos + videos to Drive (124GB)",
+      "next": "10,747 photos and 2,838 videos. Apple transfer to Google Photos.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "AI OFFLOAD",
+      "item": "Gemini Pro — bulk photo/video tagging",
+      "next": "Blocked until the iCloud move lands in Drive.",
+      "where": "GEMINI",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "MONEY",
+      "item": "Workspace Business Standard trial converts",
+      "next": "Paid service starts 2026-08-14. Flexible Plan so it can be cancelled or downgraded any time before then. Decide whether Business Standard is the right tier or whether Starter is enough.",
+      "where": "GOOGLE ADMIN",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "MONEY",
+      "item": "Copilot Pro retiring 2026-08-14",
+      "next": "Recurring billing already off, so nothing further will be charged. Microsoft is pushing 365 Premium to retain the higher AI limits. Decide only after testing whether the Copilot included with 365 Personal is enough to build slide decks — that was its only job in the roster.",
+      "where": "BROWSER",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "MONEY",
+      "item": "n8n trial converts",
+      "next": "Ends 2026-08-12. Decide paid vs self-host. The submission form and both loggers run on it.",
+      "where": "N8N",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "MONEY",
+      "item": "BMI application received — awaiting acceptance",
+      "next": "Submitted 2026-08-01. BMI says 5-7 business days, and Online Services login is impossible until the acceptance email arrives. If nothing after 60 days the application is dropped, so watch for it. Do not contact BMI for login help before that email.",
+      "where": "BMI",
+      "who": "BMI"
+    },
+    {
+      "status": "WAITING",
+      "area": "MONEY",
+      "item": "BMI exit window opens",
+      "next": "2027-12-30 to 2028-03-31. Registered or certified mail only. Miss it and the deal auto-renews to 2030-06-30.",
+      "where": "BMI",
+      "who": "Herman"
+    },
+    {
+      "status": "WAITING",
+      "area": "THE RECORD",
+      "item": "GitHub brain token expires 2027-08-01",
+      "next": "Fine-grained token lyonslegacy-brain, scoped to lyonslegacy-state, Contents read and write. Rotate BEFORE this date or the daily brain push fails silently. GitHub emails a warning first.",
+      "where": "GITHUB",
+      "who": "Herman"
+    }
+  ],
+  "standards": [
+    {
+      "id": "STD-01",
+      "area": "Build",
+      "rule": "Nothing is called finished until I have looked at it the way Herman sees it — rendered, on screen, not just \"no error thrown\".",
+      "failure_that_created_it": "Project_Log and START HERE were handed over three separate times as unformatted raw text. Herman had to catch it every time.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-02",
+      "area": "Build",
+      "rule": "Any tab I create ships with: column widths set, wrap on, header row frozen and bold, banding or colour so it reads at a glance. Formatting is part of building, not a follow-up request.",
+      "failure_that_created_it": "Same three failures. \"why is it all shitty looking and not lined up its messy and looks like trash and has no colors either\".",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-03",
+      "area": "Build",
+      "rule": "Formatting is done in code, never by hand-typing into cells. Hand-typing loses tabs, mis-splits columns, and silently fails to land.",
+      "failure_that_created_it": "Rows typed into Project_Log silently did not save; a retry auto-split on the wrong separator and had to be undone. Two wasted attempts.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-04",
+      "area": "Build",
+      "rule": "Before saving over any file, verify I am looking at the current version — line count or read-back. Never save a tab I did not just load.",
+      "failure_that_created_it": "A fresh Apps Script tab loaded a stale copy. Saving it wiped colourWorkbook, reorderProjectLog, sortProjectLog_, colourProjectLog_ and statusRank_. Worst error of the build.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-05",
+      "area": "Build",
+      "rule": "One script file. Not five. Everything appends to Code.gs.",
+      "failure_that_created_it": "Herman asked for it directly after being handed fragments.",
+      "added": "2026-07-30"
+    },
+    {
+      "id": "STD-06",
+      "area": "Operating",
+      "rule": "ZERO TYPING. If a process needs Herman to type data by hand, the process is not finished. Drop the file, the machine fills the row.",
+      "failure_that_created_it": "\"IM NOT TYPING SHIT I SHOULD BE ABLE TO JUST DROP AND IT FILLS THE FUCKING SHIT OUT ITSELF\".",
+      "added": "2026-07-30"
+    },
+    {
+      "id": "STD-07",
+      "area": "Operating",
+      "rule": "Every single response ends with next steps, each labelled with the app it happens in — SHEETS / APPS SCRIPT / DRIVE / NAMECHEAP / IPHONE / N8N / BROWSER.",
+      "failure_that_created_it": "Standing instruction from Herman. Permanent. Never changes.",
+      "added": "2026-07-29"
+    },
+    {
+      "id": "STD-08",
+      "area": "Operating",
+      "rule": "Never send Herman to the Apps Script editor to run something that belongs in the Sheet. Anything that pops a dialog cannot run from the editor.",
+      "failure_that_created_it": "dropAndGo hit the 6-minute limit because a ui.alert() sat waiting for a click nobody could make. Then I told him to run it from the editor again.",
+      "added": "2026-07-30"
+    },
+    {
+      "id": "STD-09",
+      "area": "Operating",
+      "rule": "Nothing Herman owns waits on other people. Other-party paperwork is tracked, never a gate.",
+      "failure_that_created_it": "The NDA check blocked his own in-house personas behind a signature that was never coming. \"i dont care when the people sign\".",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-10",
+      "area": "Operating",
+      "rule": "Ask about the blocking condition BEFORE writing the plan. One question first beats a full plan thrown away.",
+      "failure_that_created_it": "A whole Apple export plan was written before asking whether Advanced Data Protection was on. It was. Plan rewritten from scratch.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-11",
+      "area": "Operating",
+      "rule": "No casual advice that touches his machine, display, or system settings. If it can break his setup, it gets flagged as risky or not offered.",
+      "failure_that_created_it": "Display advice froze his computer and moved his icons and sign-in screen to the wrong monitor.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-12",
+      "area": "Data",
+      "rule": "ONE SONG = ONE ROW = ONE FOLDER. wav and mp3 of the same song share the row. A (1) or B suffix is a different version and gets its own row, folder and publish status.",
+      "failure_that_created_it": "Four files collapsed into one row. Then I over-corrected to one row per file. Herman had to correct me twice.",
+      "added": "2026-07-30"
+    },
+    {
+      "id": "STD-13",
+      "area": "Data",
+      "rule": "Late-arriving files — video, artwork, stems — attach to the song that already exists. They never create a new session. Name the export after the song.",
+      "failure_that_created_it": "CapCut exports were creating orphan sessions instead of attaching.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-14",
+      "area": "Memory",
+      "rule": "The workbook is the memory. The chat is not. Every problem, cause, fix, decision and open item goes into Project_Log without being asked.",
+      "failure_that_created_it": "Chat memory is switched off on this account and chats can be deleted. Anything only said in chat is gone.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-15",
+      "area": "Memory",
+      "rule": "A fresh chat must be able to pick up cold with zero loss. NEW CHAT START holds the paste-in briefing. It stays current.",
+      "failure_that_created_it": "Conversations get compacted automatically and detail is squeezed out. Herman flagged it: he should never be paying for lost ground.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-19",
+      "area": "Memory",
+      "rule": "READ THE WORKBOOK BEFORE ANSWERING. The tabs exist to be referenced. Building a record and then answering from the chat instead is the same failure as never building it. Every session opens by reading START HERE, STANDARDS and the open items in Project_Log.",
+      "failure_that_created_it": "The record was built and then not used. Herman had to point out that the reference material he asked for was sitting there unread.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-20",
+      "area": "Operating",
+      "rule": "Do not tell Herman what he did or did not know or understand. He is ahead of the tooling, not behind it. Report what is true about the tools; do not narrate his own thinking back at him.",
+      "failure_that_created_it": "Told him he had arrived at the right design \"before he knew why\". He knew why. That is patronising and it is also wrong.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-21",
+      "area": "Memory",
+      "rule": "HERMANS USAGE IS A BUDGET I AM SPENDING. Usage resets on a 5-hour rolling window and every Claude surface draws from the same pool. Screenshots and long chats are the expensive part. Do work in code, batch requests, do not run screenshot loops, and never make him pay twice for the same deliverable.",
+      "failure_that_created_it": "A full day of usage went in one sitting, partly on redoing work that should have been right the first time. Three formatting redos and one overwritten script file were all paid for out of his budget.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-22",
+      "area": "Growth",
+      "rule": "REFUSE THE WRONG JOB. If Herman brings Claude something on the OFFLOAD tab, say so and point at the right tool instead of quietly doing it. Doing it quietly spends his budget on the wrong seat.",
+      "failure_that_created_it": "A full day of usage went in one sitting with no one flagging that half the work belonged on tools he already pays for.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-16",
+      "area": "Growth",
+      "rule": "RATCHET RULE. Once something goes wrong it is written on this tab and never happens again. This list only grows. A standard is never removed and never weakened.",
+      "failure_that_created_it": "\"once there is an issue, it never is an issue again... Exponential growth is the key.\"",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-17",
+      "area": "Growth",
+      "rule": "Quality control is part of the work, not a step Herman requests. If he has to ask whether it was checked, it already failed.",
+      "failure_that_created_it": "\"quality control is a part of what you do without me having to ask you to do it... you are not learning, and that is a problem.\"",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-18",
+      "area": "Growth",
+      "rule": "Open and blocked work sorts to the TOP of every tracking tab. Finished work sinks. Red = blocked, amber = waiting on someone, green = done.",
+      "failure_that_created_it": "Herman should see what is stopping him in the first screen, not scroll for it.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-23",
+      "area": "Growth",
+      "rule": "EVERY REPLY ENDS WITH THE GLOBAL SNAPSHOT. Open loops, blocked first, pulled from BLUEPRINT — not remembered, not guessed. An item repeats in every single response until its status is DONE. Herman never has to hold the list in his head or ask what is outstanding.",
+      "failure_that_created_it": "Work handed off to other apps was falling off the edge. Herman had to be the one tracking what was still open, which is his time doing my job.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-24",
+      "area": "Growth",
+      "rule": "THE RECORD UPDATES ITSELF. Anything that must stay current runs on a time-driven trigger, not on someone remembering. Automated refresh costs zero tokens and zero usage, forever.",
+      "failure_that_created_it": "Everything built so far only updated when it was manually run, which means it would drift the moment a session ended.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-25",
+      "area": "Growth",
+      "rule": "ROUTE BEFORE DOING. Every incoming job gets checked against ROUTER first. If another tool owns it, say so out loud and hand over the ready-made prompt instead of quietly doing it on the Claude seat.",
+      "failure_that_created_it": "A full day of budget went on work that Grok and Gemini already do better and cheaper, because nobody was routing.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-26",
+      "area": "Growth",
+      "rule": "NEVER IDLE. Every reply hands Herman something to kick off in parallel on another tool while Claude builds. If QUEUE has a NOT STARTED row on it, something should be running somewhere. Idle is a failure state.",
+      "failure_that_created_it": "Work ran strictly one thing at a time on the slowest and most expensive seat, with three other paid tools sitting untouched.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-27",
+      "area": "Growth",
+      "rule": "EVERY REPLY ENDS WITH ONE NAMED NEXT STEP. Not a menu, not a list of options — the single highest value action, stated plainly as THIS IS YOUR NEXT STEP, with the app and the time it takes. The snapshot shows everything open; the last line picks the one thing. Herman decides nothing about sequencing unless he wants to.",
+      "failure_that_created_it": "Herman had to ask what the most important thing was, repeatedly. Handing him a list of open items and letting him sort it is handing him my job.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-28",
+      "area": "Growth",
+      "rule": "HIGHEST VALUE = MOST DOWNSTREAM WORK UNBLOCKED PER MINUTE SPENT. That is the ranking rule, not what is easiest and not what was discussed most recently.",
+      "failure_that_created_it": "Written down so the pick is consistent and can be argued with rather than guessed at.",
+      "added": "2026-07-31"
+    },
+    {
+      "id": "STD-29",
+      "area": "Memory",
+      "rule": "LIVE STATE FILE. The entire build is written to dated, timed JSON in Drive and rebuilt daily. Any session reads LL_STATE_LATEST.json first and is fully caught up with no re-explaining and no guessing at what Herman wants.",
+      "failure_that_created_it": "Every session started by reconstructing context from a conversation, which is slow, expensive, and lossy. Herman was paying for the same catch-up over and over.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-30",
+      "area": "Growth",
+      "rule": "ROLLBACK POINTS. Every snapshot is kept, never overwritten. When something breaks, go back to the last dated good state, fix it there, and move forward better — never rebuild from memory.",
+      "failure_that_created_it": "A stale editor tab once wiped five working functions with no way back except reconstructing them by hand.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-31",
+      "area": "Data",
+      "rule": "EXACT STRINGS, NEVER PARAPHRASED. Anything Herman has to type into another system — addresses, DNS values, record hosts — is given as the literal string, copy ready, and stored in the workbook so it is never retyped from memory.",
+      "failure_that_created_it": "Herman had to ask what the addresses were spelled out in full because getting one character wrong in a DNS or mail setting fails silently.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-34",
+      "area": "Build",
+      "rule": "NEVER TYPE INTO A FIELD WHOSE CURRENT VALUE HAS NOT BEEN READ. When driving a form, read or screenshot the whole form first and identify every field by what it already contains, not by its position or its label.",
+      "failure_that_created_it": "While adding aliases, a field that already held the primary address hermanbeeftink was overwritten. Nothing was saved and the change was discarded, but it was one click away from renaming the only mailbox on the domain.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-35",
+      "area": "Build",
+      "rule": "STOP AFTER TWO FAILURES. When a page stops responding or an action fails twice, stop, report exactly what did and did not land, and hand back. Do not keep retrying — it burns budget and risks half-finished state.",
+      "failure_that_created_it": "A Google Admin page froze mid-form and the temptation was to keep hammering it.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-38",
+      "area": "Growth",
+      "rule": "ONE DOOR PER JOB. When two systems do the same job, one of them is deleted, not maintained. Two front doors, two loggers, two storage plans — every duplicate is a thing that drifts, breaks quietly, and gets paid for twice.",
+      "failure_that_created_it": "The artist submission form existed in n8n while artist portals did the same job inside the workbook. Herman spotted it: artists should only ever have a portal.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-37",
+      "area": "Growth",
+      "rule": "WHEN THE MACHINE FIGHTS BACK, HAND THE 30 SECOND VERSION TO HERMAN. If driving a page costs more in failed retries than the manual action costs him, say so and give him the exact keystrokes. Automation is the goal, not the point.",
+      "failure_that_created_it": "The Google Admin console stopped responding to automation mid-alias. Three aliases that would have taken minutes to fight for took Herman thirty seconds by hand.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-36",
+      "area": "Memory",
+      "rule": "DO NOT RE-PRESENT SETTLED DECISIONS AS NEW FINDINGS. Before flagging something as a discovery, check whether it is already decided in the record. Repeating settled ground wastes Hermans time and budget and signals the record is not being read.",
+      "failure_that_created_it": "Storage placement for the 124GB had already been decided — it goes to the personal Google One 2TB. It was raised again as if it were a new insight about Workspace Starter.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-32",
+      "area": "Data",
+      "rule": "MONEY QUESTIONS JUMP THE QUEUE AND GET VERIFIED, NEVER GUESSED. Every subscription, renewal date, trial clock and overlap lives on the MONEY tab. No answer about a charge is given from assumption — it is read off the billing page first.",
+      "failure_that_created_it": "A post-checkout screen made it look like Workspace had been bought twice. The real answer, one billing page away, was that nothing had been charged at all.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-33",
+      "area": "Growth",
+      "rule": "FIND THE OVERLAPS. Whenever a new subscription appears, check what it duplicates. Paying twice for the same capability is invisible until someone looks.",
+      "failure_that_created_it": "Four cloud storage subscriptions and two Gemini bills were running at once and nobody had put them side by side.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-42",
+      "area": "Memory",
+      "rule": "ANY WORK THAT HAPPENS IN SOMEONE ELSES CHAT GETS EXPORTED THE SAME WEEK. Grok, Gemini, Suno prompts — if it lives only in a provider chat history it is on a deletion clock nobody controls. Prompts, seed lyrics and creative direction are evidence and raw material, and both belong in Drive and Prompt_Library.",
+      "failure_that_created_it": "Most of the lyric work happened in Grok, which clears conversations after about 90 days. The evidence of human authorship for an entire catalogue was quietly expiring.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-41",
+      "area": "Growth",
+      "rule": "A DEADLINE THE OTHER SIDE CONTROLS IS NOT YOUR DEADLINE. When a clause imposes a clock but the counterparty has not opened access, record the real constraint rather than the paper one, and say so plainly instead of raising an alarm.",
+      "failure_that_created_it": "The BMI ten day registration clause was reported as a hard deadline before checking that BMI blocks Online Services access for 5-7 business days, making it impossible to meet and pointless to panic over.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-39",
+      "area": "Data",
+      "rule": "EVERY SIGNED AGREEMENT GETS INDEXED THE DAY IT IS SIGNED. Plain language, clause numbers, every deadline extracted into the blueprint with a date. A contract nobody has read is a contract working against you.",
+      "failure_that_created_it": "The BMI agreement contains a ten day registration deadline, a no-pay-before-registration rule, an equal-split default and a three month exit window. All four would have been invisible until they cost money.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-40",
+      "area": "Growth",
+      "rule": "PAPERWORK DEADLINES GO ON THE BLUEPRINT WITH A DATE, NEVER IN PROSE. If a clause has a date attached, it becomes a dated row that sorts to the top as it approaches.",
+      "failure_that_created_it": "Three separate clocks landed in the same fortnight — BMI registrations 08-11, n8n 08-12, Workspace 08-14 — and none of them were anywhere Herman would trip over them.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-43",
+      "area": "Growth",
+      "rule": "ONE FEEDBACK SCALE EVERYWHERE. SUPER LIKED / KIND OF LIKED / NOT FOR ME on every rateable thing — prompts, voices, songs, episodes, artwork. Same three words, same three colours, per artist. Only SUPER LIKED items feed back into generation. Taste compounds instead of being re-guessed.",
+      "failure_that_created_it": "Herman: log what they like and use only the best of what they want. A single rating primitive reused everywhere beats a bespoke feedback field per feature.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-44",
+      "area": "Build",
+      "rule": "UPGRADE EXISTING TABS, NEVER REBUILD THEM. Any function touching a tab that already holds real data adds columns by header name and leaves every existing cell alone. Clearing is only for tabs this code created.",
+      "failure_that_created_it": "Prompt_Library, Voice_References and Song_Card already hold Hermans work. A rebuild-style builder would have erased all of it.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-45",
+      "area": "Build",
+      "rule": "NAME THE SEAM. When part of a proposed workflow cannot actually be automated, say so before building around it. NotebookLM has no API — audio overviews are made by hand.",
+      "failure_that_created_it": "A podcast pipeline was about to be designed as fully automatic when its generation step is manual.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-49",
+      "area": "Data",
+      "rule": "ONE IDENTITY FOR EVERY LABEL SERVICE: hermanbeeftink@lyonslegacy.ai. BMI, DistroKid, the podcast host, artwork tools, anything the label owns. The personal Gmail owns Drive, storage, Suno and the workbook and nothing else. No exceptions, so recovery and ownership are never ambiguous.",
+      "failure_that_created_it": "Signups were being decided one at a time, which is how accounts end up scattered across identities nobody can recover.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-50",
+      "area": "Build",
+      "rule": "PREFER EMAIL AND PASSWORD OVER SIGN IN WITH GOOGLE FOR LABEL SERVICES. Herman is signed into multiple Google accounts, so SSO silently picks the wrong one. Every password goes in a password manager, never reused, never typed into a chat.",
+      "failure_that_created_it": "A Google Admin link 404d for an entire exchange purely because SSO defaulted to the wrong signed-in account. The same trap applied to a podcast signup would attach the show to the wrong identity permanently.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-46",
+      "area": "Growth",
+      "rule": "A RATING IS NOT A LOOP. Signal, change, verify, never again. Every NOT FOR ME must produce a standard or a blueprint item and stays red until it does. Feedback that changes nothing is decoration.",
+      "failure_that_created_it": "Herman asked for feedback loops in everything. Recording opinions without a forced change is exactly the pattern that let the same formatting failure happen three times.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-47",
+      "area": "Growth",
+      "rule": "THE RATCHET POINTS BOTH WAYS. Herman rates Claude on the same three-tier scale, in the Feedback tab, and every NOT FOR ME becomes a standard. Claude proposes the standard itself rather than waiting to be told what the rule should be.",
+      "failure_that_created_it": "Herman: this should be taken into consideration on your end as well as mine. Quality control that only measures one side is not quality control.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-48",
+      "area": "Growth",
+      "rule": "THE LOOP CLOSES AT THE GENERATOR. A preference only counts when it changes what gets produced next — SUPER LIKED prompts are the only ones reused, NOT FOR ME ones are never offered again. Until the generation step reads the ratings, the scale is a survey.",
+      "failure_that_created_it": "Ratings were about to be collected with nothing downstream consuming them.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-51",
+      "area": "Build",
+      "rule": "SHIP ONE BY HAND BEFORE AUTOMATING IT. Automation built against a process nobody has run once encodes guesses instead of reality. Run it manually, watch where it actually hurts, then automate that.",
+      "failure_that_created_it": "A podcast publishing pipeline was requested before a single episode had ever been published, on a day where everything built was infrastructure and nothing reached the public.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-52",
+      "area": "Build",
+      "rule": "AUTOMATE UP TO THE SEAM, NOT THROUGH IT. Where a service has no API, automate everything either side of it and say plainly where the manual step is. NotebookLM generation and Spotify uploads are both manual and always will be.",
+      "failure_that_created_it": "Two separate automation requests assumed APIs that do not exist.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-53",
+      "area": "Growth",
+      "rule": "THE PLATFORM SPEC IS THE FLOOR FOR EVERY NEW DOMAIN. P1 to P19 on the PLATFORM tab apply to songs, recipes and anything that comes next. A new domain is not started until that list is the plan. It only ever grows.",
+      "failure_that_created_it": "Herman asked twice for a bare-minimum spec and got STANDARDS — rules about how Claude works — instead of a spec for what every new thing GETS. Two different documents; only one existed.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-54",
+      "area": "Growth",
+      "rule": "MAXIMUM OUTPUT IS THE BARE MINIMUM. Every new concept ships the full pack: report, one-pager, slide deck, mind map, podcast episode and social copy set. Not the best one — all of them. Then the rating loop decides which earn their place for that person next time.",
+      "failure_that_created_it": "Herman: that is what needs to happen every time as the bare minimum. Pairing it with the rating loop is what stops maximum output becoming maximum noise.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-55",
+      "area": "Data",
+      "rule": "ONE JOB PER AI, AND AN UNUSED TOOL IS EITHER GIVEN A JOB OR DROPPED. Paying for a tool nobody uses is waste; using a tool nobody needs is also waste. Every tool on AI ROLES has exactly one job or it sits out and stops being paid for.",
+      "failure_that_created_it": "Nine AI subscriptions were in play with roles defined for four of them.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-57",
+      "area": "Data",
+      "rule": "ONE CANONICAL HOME PER FILE TYPE, AND COPY-VERIFY-CANCEL IN THAT ORDER. Photos and video in Google Photos, working files in Google Drive. Everywhere else is a copy to be emptied. No storage subscription is cancelled until the copy is verified present at the destination.",
+      "failure_that_created_it": "The same photos exist across iCloud, OneDrive and Google, which is why four storage bills are running at once and why nobody can tell what is safe to delete.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-56",
+      "area": "Build",
+      "rule": "EVERY INSTRUCTION MUST BE RUNNABLE EXACTLY AS WRITTEN. If a function needs an argument it gets a zero-argument wrapper, because the Apps Script Run dropdown cannot pass parameters. Never hand Herman a step the tool physically cannot perform.",
+      "failure_that_created_it": "He was told to run createNewDomainWorkbook with Recipes as the argument. The Run dropdown cannot pass arguments, so the instruction was impossible to follow.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-58",
+      "area": "Memory",
+      "rule": "READ THE BRAIN BEFORE THE FIRST WORD. Every session fetches LL_STATE_LATEST.json before answering anything or proposing any next step. Never send Herman somewhere the blueprint already records as in progress or done. Checking is not optional and it is not a judgement call.",
+      "failure_that_created_it": "Five separate times in one day he was told to do something already recorded as underway — adding a roster artist already on the roster, starting an Apple transfer already running. The record existed and was not read.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-59",
+      "area": "Memory",
+      "rule": "THE RECORD MUST BE FETCHABLE, NOT JUST WRITTEN. If reading the record depends on remembering to open something, it will not be read. It gets a stable URL that returns the whole state as data, and that URL lives in START HERE.",
+      "failure_that_created_it": "Herman: it should already be there so you do not have to use our conversation memory. He was right — the failure was mechanism, not effort.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-60",
+      "area": "Growth",
+      "rule": "THE NEXT STEP HAS A FIXED FORMAT: APP -> exact path -> what to click -> how long it takes. Every single time, no exceptions. The snapshot already carries app labels; the closing step must carry them too. Herman should never have to ask where.",
+      "failure_that_created_it": "Instructions kept arriving as run buildEverything or paste this with no application named and no path, at least four separate times, despite STD-07, STD-31 and STD-56 all already requiring it. The rules existed; the format did not enforce them.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-61",
+      "area": "Memory",
+      "rule": "THE BRAIN MUST BE PROVEN FETCHABLE, NOT ASSUMED. A record endpoint counts as working only after it has actually been read back end to end. Google Drive links are blocked to automated fetching, so the state is served from an Apps Script web app instead.",
+      "failure_that_created_it": "The Drive state URL was declared the fix and then failed on the very first fetch. An untested mechanism is the same as no mechanism.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-62",
+      "area": "Memory",
+      "rule": "AN INACCURATE BRAIN IS WORSE THAN NO BRAIN. Status corrections run AFTER every item has been added, duplicates are stripped by name, and anything Herman reports as done is corrected in the same turn he reports it. A record that is trusted and wrong causes more damage than one that is absent.",
+      "failure_that_created_it": "The first successful read of the brain showed BMI songwriter as NOT STARTED two hours after it was submitted, the Apple transfer as NOT STARTED after it was already running, and the n8n trial listed twice. Corrections were running before the items existed.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-63",
+      "area": "Build",
+      "rule": "CODE CHANGES DO NOT REACH A DEPLOYED WEB APP UNTIL IT IS REDEPLOYED WITH A NEW VERSION. After editing Code.gs, always Deploy > Manage deployments > pencil > Version: New version > Deploy, or the brain keeps serving stale data while looking healthy.",
+      "failure_that_created_it": "The web app serves whichever version was deployed, not the current code — a silent staleness trap.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-64",
+      "area": "Build",
+      "rule": "CREDENTIALS LIVE IN SCRIPT PROPERTIES, NEVER IN CODE AND NEVER IN A CHAT. Tokens, keys and secrets are set in Project Settings > Script Properties and read at runtime. Anything pasted into a conversation is considered compromised and gets rotated.",
+      "failure_that_created_it": "A GitHub personal access token was needed to push the brain. Hardcoding it would put a live credential into a file that gets copied around all day.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-65",
+      "area": "Memory",
+      "rule": "THE BRAIN LIVES OFF GOOGLE TOO. Google blocks automated fetching on both drive.google.com and script.google.com, so the state is also pushed to a GitHub raw URL that any session can read with no browser and no desktop connected.",
+      "failure_that_created_it": "Both Google-hosted brain URLs failed the direct fetch test. The record was only reachable while a browser happened to be attached.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-66",
+      "area": "Memory",
+      "rule": "SETTLED FACTS ARE RECORDED, NOT JUST TASKS. Anything already done, already true, already ruled out or already tried and failed goes on the SETTLED tab the moment Herman says it, with an explicit never-suggest-this-again line. The brain serves SETTLED first.",
+      "failure_that_created_it": "iCloud Photos was already on Optimize, the Apple transfer was blocked not running, and CapCut was already ruled out — none of it was written down, so all three were re-suggested. The blueprint tracked what to do and never tracked what was already true.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-67",
+      "area": "Memory",
+      "rule": "WHEN HERMAN SAYS SOMETHING IS ALREADY DONE OR ALREADY FAILING, IT IS WRITTEN DOWN IN THAT SAME TURN. Not later, not in the next batch. The correction goes in before the reply is finished.",
+      "failure_that_created_it": "He said the Apple transfer was blocked on permissions and it stayed recorded as IN PROGRESS for hours afterwards, which then produced advice built on a false state.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-68",
+      "area": "Build",
+      "rule": "CODE GOES IN BEFORE CREDENTIALS OR SETTINGS. Any setup sequence starts with pasting and saving the code, then verifying the function exists, and only then touches tokens, properties or deployment. Never walk Herman into configuration for code that is not in the file yet.",
+      "failure_that_created_it": "He was taken through creating a GitHub token and filling Script Properties before add-on 19 was ever pasted, so pushBrainToGitHub did not exist when he went to run it. Work done twice.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-69",
+      "area": "Memory",
+      "rule": "ANYTHING DELIVERED AND NOT YET INSTALLED STAYS ON THE SNAPSHOT UNTIL CONFIRMED PRESENT. Files sent, code pasted, deployments refreshed — each stays listed as outstanding until verified in place, never dropped because it feels handled.",
+      "failure_that_created_it": "Add-ons 19 and 20 were sent, dropped off the snapshot, and then assumed installed. The whole sequence after that was built on something that was not there.",
+      "added": "2026-08-01"
+    }
+  ]
+}
