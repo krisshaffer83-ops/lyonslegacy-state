@@ -1,12 +1,12 @@
 {
   "project": "LyonsLegacy.AI",
-  "generated": "2026-08-02 01:57:36",
+  "generated": "2026-08-02 02:07:05",
   "read_me_first": "READ settled FIRST. Every entry is closed — never suggest it, never ask about it, never re-explain it. Then blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
   "counts": {
     "open": 73,
     "blocked": 3,
     "done": 38,
-    "standards": 88,
+    "standards": 91,
     "settled": 29
   },
   "settled": [
@@ -1398,6 +1398,27 @@
       "area": "Data",
       "rule": "ONENOTE NOTEBOOKS ARE NEVER MOVED. A notebook stored in OneDrive breaks its own sync if the folder moves underneath it. Each one is opened, confirmed working and deliberately exported before anything near it is touched.",
       "failure_that_created_it": "Several notebooks had already been moved and it is not yet known whether they still sync.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-87",
+      "area": "Growth",
+      "rule": "EVERY RESPONSE CARRIES THE FULL FORMAT: what I learned this turn, one hypothetical with a self-healing solution, one futuristic item, one free tool, one question back to Herman, the global snapshot, and one named next step. No exceptions, no shortened versions.",
+      "failure_that_created_it": "Herman defined this as the bare minimum after a day where the format drifted and priorities got lost inside it.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-88",
+      "area": "Operating",
+      "rule": "HERMANS STATED PRIORITY OUTRANKS EVERY INTERESTING DISCOVERY. When he says a thing is the most important, that is the thing being worked on until it is done or genuinely blocked — and if it is blocked, that is said out loud rather than quietly replaced with something easier.",
+      "failure_that_created_it": "He said the phone was the most important thing and hours went into file indexing, folder maps and desktop plans instead. All useful, none of it what he asked for.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-89",
+      "area": "Growth",
+      "rule": "THE QUESTION ASKED EACH TURN IS ABOUT SOMETHING HERMAN MIGHT NOT BE SEEING, NOT SOMETHING ALREADY IN THE RECORD. Question, answer and resulting plan all get logged so the picture of what he actually wants keeps sharpening.",
+      "failure_that_created_it": "Herman: that way you can get more information about my wants which will make you self heal and self grow.",
       "added": "2026-08-01"
     },
     {
