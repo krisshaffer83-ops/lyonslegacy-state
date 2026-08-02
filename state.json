@@ -1,12 +1,12 @@
 {
   "project": "LyonsLegacy.AI",
-  "generated": "2026-08-01 13:43:13",
+  "generated": "2026-08-02 01:57:36",
   "read_me_first": "READ settled FIRST. Every entry is closed — never suggest it, never ask about it, never re-explain it. Then blocked, then open_loops. Every reply ends with the global snapshot and then ONE named next step formatted APP -> exact path -> what to click -> how long. Code goes in before credentials. Anything delivered and not installed stays listed as outstanding.",
   "counts": {
-    "open": 66,
+    "open": 73,
     "blocked": 3,
-    "done": 34,
-    "standards": 73,
+    "done": 38,
+    "standards": 88,
     "settled": 29
   },
   "settled": [
@@ -311,16 +311,8 @@
     {
       "status": "NOT STARTED",
       "area": "STORAGE + PHONE",
-      "item": "Documents (3.32GB) to Drive",
-      "next": "Straight copy.",
-      "where": "IPHONE",
-      "who": "Herman"
-    },
-    {
-      "status": "NOT STARTED",
-      "area": "STORAGE + PHONE",
       "item": "Beatlander (6GB) to Drive",
-      "next": "Herman flagged this one specifically.",
+      "next": "App data, not files in Explorer. Needs exporting from inside the app.",
       "where": "IPHONE",
       "who": "Herman"
     },
@@ -338,6 +330,54 @@
       "item": "Messages logged",
       "next": "Decide: everything, or just the Ghas / Jalen threads. Needs the full device backup either way.",
       "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MACHINE",
+      "item": "Display running at 1366x768 — far below native",
+      "next": "Intel UHD 630 integrated graphics. The TV on VGA is likely acting as primary display, which is why text is oversized and windows open off-screen. Two years of monitor trouble probably traces here.",
+      "where": "WINDOWS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MACHINE",
+      "item": "Monitors show as Generic PnP in Device Manager",
+      "next": "Windows lost the real monitor identity so it cannot offer proper resolutions. Fix is uninstall the monitor entries then Scan for hardware changes. Restore point first. Daylight job, not late night.",
+      "where": "WINDOWS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MACHINE",
+      "item": "Ghost devices causing duplicate iPhone",
+      "next": "Run command C8 on the COMMANDS tab to list devices Windows still holds but that are not plugged in.",
+      "where": "POWERSHELL",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MACHINE",
+      "item": "Around 350 app shortcuts on the desktop",
+      "next": "Hundreds of Microsoft Store apps installed. Very likely contributing to how the machine behaves. Separate cleanup.",
+      "where": "WINDOWS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "MACHINE",
+      "item": "Duplicate folders on the OneDrive desktop",
+      "next": "New folder (2)(1), New folder(7)(1), THEPORTAL and THEPORTAL(1), BASE on both desktops. The (1) suffix is Windows sync-conflict signature. Hash matching will show which are identical.",
+      "where": "WINDOWS",
+      "who": "Herman"
+    },
+    {
+      "status": "NOT STARTED",
+      "area": "THE RECORD",
+      "item": "Read Hermans existing PowerShell files",
+      "next": "Collect script into a zip he attaches to the chat. Includes ConsoleHost_history.txt — every command typed on this machine, which is two years of context.",
+      "where": "POWERSHELL",
       "who": "Herman"
     },
     {
@@ -682,6 +722,22 @@
       "item": "Late video / artwork attaches to existing song",
       "next": "Drop Paper First.mp4 into the folder and confirm it lands on the existing row, not a new one.",
       "where": "DRIVE",
+      "who": "Herman"
+    },
+    {
+      "status": "IN PROGRESS",
+      "area": "STORAGE + PHONE",
+      "item": "Documents (3.32GB) to Drive",
+      "next": "Included in the 22.78 GB local-only backup now uploading to G:\\My Drive\\LOCAL_BACKUP.",
+      "where": "IPHONE",
+      "who": "Herman"
+    },
+    {
+      "status": "IN PROGRESS",
+      "area": "FILES",
+      "item": "23 GB still uploading to the cloud",
+      "next": "Copied into G: which queues it. GoogleDriveFS is syncing roughly 6,800 files. The PC must stay on until it completes.",
+      "where": "WINDOWS",
       "who": "Herman"
     },
     {
@@ -1252,6 +1308,111 @@
       "rule": "NEVER DEPEND ON TOP-LEVEL EXECUTION ORDER. Apps Script runs every file top-level before any function, in file order, so a later file re-declaring an array silently discards everything an earlier file pushed into it. All data registers inside a function called at build time.",
       "failure_that_created_it": "Standards 70 to 72 and the whole SETTLED list vanished from the pushed brain while their functions worked perfectly — the hardest kind of bug to see, because nothing errored.",
       "added": "2026-08-01"
+    },
+    {
+      "id": "STD-74",
+      "area": "Data",
+      "rule": "INVENTORY BEFORE MOVING ANYTHING. Every file gets recorded with its hash, size, folder and sync status BEFORE a single item is moved. Organising during the move only works if the map exists first.",
+      "failure_that_created_it": "Files are spread across iCloud, OneDrive, Google Drive and the phone with no record of what is tied to what, and a suspected sync loop in OneDrive caused by folders being moved blind.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-75",
+      "area": "Data",
+      "rule": "NOTHING IS DELETED WITHOUT HERMAN APPROVING IT PER ITEM, WITH PROOF. Duplicates are surfaced by matching hash with every copy, every location and the wasted space shown. He sets the decision. Code never deletes on its own judgement.",
+      "failure_that_created_it": "Deduplication across a large library is exactly where automated cleanup destroys the only good copy of something.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-76",
+      "area": "Data",
+      "rule": "TAGS LIVE IN THE INDEX, NOT IN THE FILE SYSTEM. Drive has no usable tagging, so the searchable layer is a spreadsheet row per file. Tags survive moves, renames and re-organisation because they are not attached to the folder.",
+      "failure_that_created_it": "Folder-based organisation breaks the moment anything is moved, which is the whole problem being solved.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-77",
+      "area": "Data",
+      "rule": "PHOTOS ARE NOT DRIVE. Google Photos organises by album and searches by content already. Never propose folder structures for photos or treat Photos and Drive as one system.",
+      "failure_that_created_it": "The instinct to organise everything into folders would actively make the photo library worse.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-78",
+      "area": "Data",
+      "rule": "A REPORT BUILT ON A DIRTY INDEX IS A LIE WITH A NUMBER ON IT. Any analysis checks its own source for double-counting before it reports anything, and refuses to run rather than produce a confident wrong answer.",
+      "failure_that_created_it": "Running the Drive scan twice doubled every row, and the duplicate finder then reported 1,226 duplicate groups and 464GB wasted — almost entirely files matching themselves. Acting on it would have deleted real files.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-79",
+      "area": "Build",
+      "rule": "ANY JOB THAT APPENDS MUST BE SAFE TO RUN TWICE. Every appending function checks what already exists and skips it. Herman should never have to remember whether he already ran something.",
+      "failure_that_created_it": "scanDrive appended a full second copy of the Drive when it was run again, silently.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-80",
+      "area": "Build",
+      "rule": "DESTRUCTIVE ACTIONS GO TO TRASH, NEVER PERMANENT, AND ALWAYS WITH A ONE-CLICK UNDO. Every deletion is logged with a batch id, the file name, its size, its folder and its id, so any batch can be reversed whole.",
+      "failure_that_created_it": "Reclaiming 86GB of duplicates means touching hundreds of real files, and the only acceptable version of that is one that can be completely undone.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-81",
+      "area": "Data",
+      "rule": "IDENTICAL HASH MEANS IDENTICAL FILE — THERE IS NO BETTER COPY. For byte-identical duplicates the only real decision is which folder keeps it. Never offer a quality choice where none exists.",
+      "failure_that_created_it": "The duplicate tab offered KEEP BEST as though one copy could be higher quality than another with the same MD5.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-82",
+      "area": "Build",
+      "rule": "NEVER READ FILE CONTENTS INSIDE A CLOUD-SYNC FOLDER WITHOUT CHECKING THE OFFLINE ATTRIBUTE FIRST. Hashing, copying or opening an online-only file forces the whole thing down from the cloud. Check attributes, which costs nothing, before touching contents.",
+      "failure_that_created_it": "Hashing files under OneDrive triggered Windows to start downloading 656GB across 90,000 items onto a drive with 385GB free.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-83",
+      "area": "Data",
+      "rule": "CLASSIFY EVERY FOLDER BY WHAT IT IS SYNCED TO BEFORE MOVING ANYTHING. OneDrive, iCloud, Google Drive, app data or local only — and local only is the only category that is genuinely at risk if the drive dies.",
+      "failure_that_created_it": "Files were spread across four services with no record of which folder belonged to which, and a suspected sync loop caused by moving folders blind.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-84",
+      "area": "Data",
+      "rule": "THE DESKTOP IS A CONTROL PANEL, NOT A STORAGE BIN. It holds shortcuts to where things actually live plus one scratch folder for todays work. Nothing is ever stored on the desktop itself and the desktop is never synced to anything.",
+      "failure_that_created_it": "Windows Known Folder Move put the Desktop inside OneDrive, which produced a synced Desktop containing a copy of OneDrive — the loop Herman had been sensing for months.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-85",
+      "area": "Build",
+      "rule": "TURNING OFF ONEDRIVE FOLDER BACKUP DOES NOT MOVE FILES BACK. It leaves them in OneDrive and hands you an empty local folder. The files are moved deliberately, in batches, checking each one — never assumed to follow.",
+      "failure_that_created_it": "This is where people panic at an empty desktop and undo the change, leaving the tangle in place.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-86",
+      "area": "Data",
+      "rule": "ONENOTE NOTEBOOKS ARE NEVER MOVED. A notebook stored in OneDrive breaks its own sync if the folder moves underneath it. Each one is opened, confirmed working and deliberately exported before anything near it is touched.",
+      "failure_that_created_it": "Several notebooks had already been moved and it is not yet known whether they still sync.",
+      "added": "2026-08-01"
+    },
+    {
+      "id": "STD-90",
+      "area": "Build",
+      "rule": "NO IMPROVISED COMMANDS. Every PowerShell command is written to the COMMANDS tab, reviewed and flagged for cloud safety BEFORE Herman runs it. Anything invented mid-conversation is where the mistakes come from — every error today came from a one-liner typed in the moment, while everything that went through a file worked.",
+      "failure_that_created_it": "Four self-written standards were broken within hours of writing them, all in ad-hoc commands: a Y prompt that does not exist, missing paths, and cloud downloads triggered twice.",
+      "added": "2026-08-02"
+    },
+    {
+      "id": "STD-91",
+      "area": "Growth",
+      "rule": "THE FAILURE MODE IS NOT FORGETTING, IT IS NOT CHECKING. The rules were written, present and available each time they were broken. So the fix is structural — remove the category of action rather than add another rule about it.",
+      "failure_that_created_it": "STD-82 forbade reading cloud files without checking the Offline attribute, and was violated by a command written less than an hour later.",
+      "added": "2026-08-02"
     }
   ]
 }
